@@ -88,7 +88,7 @@ namespace ScreenMy
                     }
                     g.ReleaseHdc(hdc);
                 }
-                Rectangle section = new Rectangle(new Point(230, 200), new Size(1130, 470));  //Полтава
+                Rectangle section = new Rectangle(new Point(230, 200), new Size(1130, 470));  
                 Bitmap CroppedImage = CropImage(bitmap, section);
                 CroppedImage.Save(pth);
             }
